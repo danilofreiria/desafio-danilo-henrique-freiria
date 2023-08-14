@@ -2,48 +2,51 @@ export const cardapio = {
   principais: [
     {
       codigo: 'cafe',
-      descricao: 'Café',
-      valor: 3.00
+      descricao: 'Cafe',
+      valor: 300
     },
     {
       codigo: 'suco',
       descricao: 'Suco Natural',
-      valor: 6.20
+      valor: 620
     },
     {
       codigo: 'sanduiche',
-      descricao: 'Sanduíche',
-      valor: 6.50
+      descricao: 'Sanduiche',
+      valor: 650
     },
     {
       codigo: 'salgado',
       descricao: 'Salgado',
-      valor: 7.25
+      valor: 725
     }
   ],
   combos: [
     {
       codigo: 'combo1',
-      descricao: '1 Suco e 1 Sanduíche',
-      valor: 9.50
+      descricao: '1 Suco e 1 Sanduiche',
+      valor: 950
     },
     {
       codigo: 'combo2',
-      descricao: '1 Café e 1 Sanduíche',
-      valor: 7.50
+      descricao: '1 Cafe e 1 Sanduiche',
+      valor: 750
     }
   ],
   extras: [
-    {
-      codigo: 'chantily',
-      descricao: 'Chantily (extra do Café)',
-      valor: 1.50
-    },
-    {
-      codigo: 'queijo',
-      descricao: 'Queijo (extra do Sanduíche)',
-      valor: 2.00
-    }
+      {
+        codigo: 'chantily',
+        descricao: 'Chantily (extra do cafe)',
+        valor: 150,
+        itemPrincipal: "cafe"
+      },
+
+      {
+        codigo: 'queijo',
+        descricao: 'Queijo (extra do sanduiche)',
+        valor: 200,
+        itemPrincipal: "sanduiche"
+      }
   ]
 };
 
